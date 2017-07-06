@@ -50,7 +50,8 @@ To install Cantera, you need to type in the Anaconda command line:
 
 conda install -c cantera cantera
 
-Some of the notebooks (those for reaction path analysis) make use of the graphviz package, which is installed with the following 
+Some of the notebooks (those for reaction path analysis) make use 
+of the graphviz package, which is installed with the following 
 command:
 
 conda install -c anaconda graphviz=2.38.0
