@@ -1,4 +1,4 @@
-##Cantera example notebook install instructions
+## Cantera example notebook install instructions
 
 **Last updated Fall 2018 by James L Urban**
 
