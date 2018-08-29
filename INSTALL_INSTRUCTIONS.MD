@@ -17,9 +17,10 @@ using Anaconda. Download Anaconda at the following URL:
 
 https://www.anaconda.com/download/ 
 
-Make sure to download the version for Python 2.7. __DO NOT__ download 
-the version for Python 3.x. If you are using macOS, click the 
+Make sure to download the version for Python 2.7. If you are using macOS, click the 
 Graphical Installer button.
+
+__DO NOT__ download the version for Python 3.x. 
 
 For Windows, After installing Anaconda, search for “`anaconda 
 prompt`” and click on “Anaconda Prompt” and an anaconda prompt 
