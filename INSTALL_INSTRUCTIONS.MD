@@ -1,6 +1,6 @@
-Cantera example notebook install instructions
+##Cantera example notebook install instructions
 
-Last updated Fall 2018 by James L Urban
+**Last updated Fall 2018 by James L Urban**
 
 To use the notebooks in this repository, you’ll need to download 
 Python, the Jupyter notebook interface, and some Python packages. 
@@ -8,8 +8,8 @@ The easiest way to do this for all major operating systems is to
 use the Anaconda package manager, and we provide these 
 instructions here. 
 
-————————————————————————
-Step 1: Install Anaconda
+
+### Step 1: Install Anaconda
 
 These Cantera notebooks require the Python programming environment 
 to operate. The Python programming environment can be installed 
@@ -43,8 +43,7 @@ Jupyter, which is a notebook interface for Python:
 
 `conda update jupyter`
 
-————————————————————————
-Step 2: Install Cantera
+### Step 2: Install Cantera
 
 To install Cantera, you need to type in the Anaconda command line:
 
@@ -59,8 +58,7 @@ command:
 This is not necessary to run Cantera, so you can skip this step if 
 you do not plan on looking at reaction path analysis. 
 
-————————————————————————
-Step 3: Open Jupyter notebook
+### Step 3: Open Jupyter notebook
 
 The notebooks are part of this GitHub repository, and the most 
 updated versions are located at the following URL:
@@ -90,8 +88,7 @@ you remove the nitrogen from the mixture or what happens if you
 change the fuel. Make sure to keep an original version for 
 reference!
 
-————————————————————————
-Step 4: Close Jupyter notebook
+### Step 4: Close Jupyter notebook
 
 When you are finished with the Jupyter notebook, you will close it 
 in your browser. For Windows, shutdown the Notebook by opening the 
