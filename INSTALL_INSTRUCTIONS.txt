@@ -1,6 +1,6 @@
 Cantera example notebook install instructions
 
-Last updated summer 2017 by Daniel I. Pineda
+Last updated Fall 2018 by James L Urban
 
 To use the notebooks in this repository, you’ll need to download 
 Python, the Jupyter notebook interface, and some Python packages. 
@@ -15,7 +15,7 @@ These Cantera notebooks require the Python programming environment
 to operate. The Python programming environment can be installed 
 using Anaconda. Download Anaconda at the following URL: 
 
-https://www.continuum.io/downloads 
+https://www.anaconda.com/download/ 
 
 Make sure to download the version for Python 2.7. Do NOT download 
 the version for Python 3.x. If you are using macOS, click the 
@@ -29,32 +29,32 @@ For macOS, simply open the Terminal application.
 
 You will want to run the following command:
 
-conda update conda
+`conda update conda`
 
 If there is an update available, there will be a prompt to
 download updates. If this happens, type y  and then <enter>. Then 
 type in the command:
 
-conda update numpy
+`conda update numpy`
 
 This will import numpy, a software package with functions and
 routines very similar to MATLAB. Then we will install/update 
 Jupyter, which is a notebook interface for Python:
 
-conda update jupyter
+`conda update jupyter`
 
 ————————————————————————
 Step 2: Install Cantera
 
 To install Cantera, you need to type in the Anaconda command line:
 
-conda install -c cantera cantera
+`conda install --channel cantera cantera`
 
 Some of the notebooks (those for reaction path analysis) make use 
 of the graphviz package, which is installed with the following 
 command:
 
-conda install -c anaconda graphviz=2.38.0
+`conda install -c anaconda graphviz=2.38.0`
 
 This is not necessary to run Cantera, so you can skip this step if 
 you do not plan on looking at reaction path analysis. 
@@ -70,7 +70,7 @@ https://github.com/JLUrban/Cantera-Example-Notebooks
 Either in the Windows Command Prompt, or the macOS Terminal, or a 
 Linux terminal, type:
 
-jupyter notebook
+`jupyter notebook`
 
 A notebook interface should open in a browser window at the URL:
 
@@ -97,11 +97,11 @@ When you are finished with the Jupyter notebook, you will close it
 in your browser. For Windows, shutdown the Notebook by opening the 
 terminal window for Jupyter and type: 
 
-<ctrl> + c 
+`<ctrl> + c` 
 
 and then type 
 
-y 
+`y` 
 
 followed by 
 
@@ -109,6 +109,6 @@ followed by
 
 to  shutdown Jupyter. For macOS, go to the Terminal and type:
 
-<ctrl> + c 
+`<ctrl> + c `
 
 twice to shutdown Jupyter. 
