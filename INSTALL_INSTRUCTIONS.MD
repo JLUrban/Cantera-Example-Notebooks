@@ -2,7 +2,7 @@
 
 **Last updated Fall 2018 by James L Urban**
 
-To use the notebooks in this repository, you’ll need to download 
+To use the notebooks in this repository, you will need to download 
 Python, the Jupyter notebook interface, and some Python packages. 
 The easiest way to do this for all major operating systems is to 
 use the Anaconda package manager, and we provide these 
@@ -17,12 +17,12 @@ using Anaconda. Download Anaconda at the following URL:
 
 https://www.anaconda.com/download/ 
 
-Make sure to download the version for Python 2.7. Do NOT download 
+Make sure to download the version for Python 2.7. __DO NOT__ download 
 the version for Python 3.x. If you are using macOS, click the 
 Graphical Installer button.
 
-For Windows, After installing Anaconda, search for “anaconda 
-prompt” and click on “Anaconda Prompt” and an anaconda prompt 
+For Windows, After installing Anaconda, search for “`anaconda 
+prompt`” and click on “Anaconda Prompt” and an anaconda prompt 
 terminal window should open on your computer. 
 
 For macOS, simply open the Terminal application. 
@@ -32,7 +32,7 @@ You will want to run the following command:
 `conda update conda`
 
 If there is an update available, there will be a prompt to
-download updates. If this happens, type y  and then <enter>. Then 
+download updates. If this happens, type `y` and then `<enter>`. Then 
 type in the command:
 
 `conda update numpy`
